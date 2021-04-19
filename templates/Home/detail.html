@@ -1,0 +1,317 @@
+{% extends 'base1.html' %}
+
+{% block content %}
+<section>
+
+    <p style="margin-top:70px; color:rgb(153,160,165); margin-left:15px; font-size:14px;">Home / Women / Western Wear /
+        Tops / <b style="color:black; opacity:0.7;">Sztori Tops</b></p>
+    <hr style="border-top: 0px solid #8c8b8b; margin-left:10px; opacity:0.1; margin-right:10px;">
+
+    <div class="row no-gutters" style="margin-bottom:35px;">
+        <div class="col-md-7 no-gutters">
+            <div class="left_side">
+                <div class="row no-gutters">
+                    <div class="col-6 no-gutters" style="margin-right:0px !important;">
+                        <div class="card" style="margin-right:6px; margin-bottom:6px;">
+                            <div class="inner">
+                                <img class="card-img-top" src="/static/image/1.jpg" alt="Card image cap"
+                                     style="width:26rem; height:33rem; object-fit:cover;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 no-gutters" style="margin-right:0px !important;">
+                        <div class="card">
+                            <div class="inner">
+                                <img class="card-img-top" src="/static/image/2.jpg" alt="Card image cap"
+                                     style="width:26rem; height:33rem; object-fit:cover;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 no-gutters" style="margin-right:0px !important;">
+                        <div class="card" style="width: 14rem; height:16rem; margin-bottom:10px;">
+                            <a href="{% url 'detail' %}">
+                                <div class="inner">
+                                    <img class="card-img" src="/static/image/3.PNG" alt="Card image cap"
+                                         style="width:100%, height:100%; object-fit:cover;">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-4 no-gutters" style="margin-right:0px !important;">
+                        <div class="card" style="width: 14rem; height:16rem; margin-bottom:10px;">
+                            <a href="{% url 'detail' %}">
+                                <div class="inner">
+                                    <img class="card-img" src="/static/image/4.PNG" alt="Card image cap"
+                                         style="width:100%, height:100%; object-fit:cover;">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-4 no-gutters" style="margin-right:0px !important;">
+                        <div class="card" style="width: 14rem; height:16rem; margin-bottom:10px;">
+                            <a href="{% url 'detail' %}">
+                                <div class="inner">
+                                    <img class="card-img" src="/static/image/5.PNG" alt="Card image cap"
+                                         style="width:100%, height:100%; object-fit:cover;">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-5 no-gutters">
+            <div class="right_side">
+                <p style="font-size:25px; color:#333; font-family: 'Geo', sans-serif; margin-top:10px; margin-bottom:-8px;">
+                    Sztori</p>
+                <span class="text-muted">Plus Size Women Olive Green & Cream-Coloured Floral Print Top</span>
+                <hr style="border-top: 0px solid #8c8b8b; margin-right:10px;">
+                <span style="margin-right:4px; font-size:22px;"><strong>Rs.1299</strong></span>
+                <span style="opacity: .6; font-size: 15px; line-height: 1.2; margin-right:4px;">
+                    <s style="text-decoration: line-through;">Rs. 1623</s></span>
+                <span style="font-size: 20px; font-weight: 500; letter-spacing: .5px; color: #ff905a;">
+                    ( 20 % OFF )
+                </span>
+                <p style="color: #03a685; font-weight: 500; font-size: 14px; display: block; margin: 5px 10px 0 0;">
+                    inclusive of all taxes
+                </p>
+                <h6 style="color: #ff3e6c; margin-top:20px; font-size: 16px; font-weight: 500; margin-bottom:25px;">
+                    SELECT SIZE<i class="fas fa-chevron-down" style="margin-left:5px;"></i>
+                </h6>
+                <span style="background: #fff; border: 1px solid #f36f21; box-shadow: 0 2px 1px 0 rgb(0 0 0 / 8%);
+                border-radius: 2px; padding:10px; padding-left:18px; padding-right:18px; margin-right:8px;">S</span>
+                <span style="background: #fff; border: 1px solid #f36f21; box-shadow: 0 2px 1px 0 rgb(0 0 0 / 8%);
+                border-radius: 2px; padding:10px; padding-left:16px; padding-right:16px; margin-right:8px;">M</span>
+                <span style="background: #fff; border: 1px solid #f36f21; box-shadow: 0 2px 1px 0 rgb(0 0 0 / 8%);
+                border-radius: 2px; padding:10px; padding-left:14px; padding-right:14px; margin-right:8px;">XL</span>
+                <span style="background: #fff; border: 1px solid #f36f21; box-shadow: 0 2px 1px 0 rgb(0 0 0 / 8%);
+                border-radius: 2px; padding:10px; margin-right:8px;">XXL</span>
+
+                <h6 style="color: #ff3e6c; margin-top:35px; font-size: 16px; font-weight: 500; margin-bottom:25px;">
+                    QUANTITY<i class="fas fa-chevron-right" style="margin-left:5px; margin-right:10px;"></i> <input type="number" id="quantity" name="quantity" value="1" min="1" max="5">
+                </h6>
+                <button type="button" class="btn btn-outline"><i class="fas fa-cart-plus" style="margin-right:10px;"></i>Add To Cart</button>
+                <button type="button" class="btn btn-outline1"><i class="fas fa-heart" style="margin-right:10px;"></i>Wishlist</button>
+
+                <p style="font-family: sans-serif;
+                margin-top:30px; margin-bottom:5px;">
+                    PRODUCT DETAILS<i style="margin-left:10px;" class="fas fa-info-circle"></i></p>
+                <span class="text-muted" style="font-size:14px;">Olive Green and Cream-Coloured Floral PrintPlus Size woven regular top, has a tie-up neck, and short sleeves</span>
+                <p style="font-size:15px; font-family: sans-serif;
+                margin-top:10px; margin-bottom:5px;">
+                    Size & Fit</p>
+                <span class="text-muted" style="font-size:14px;">The model (height 5'8") is wearing a size XXL</span>
+                <p style="font-size:15px; font-family: sans-serif;
+                margin-top:10px; margin-bottom:5px;">
+                    Material & Care</p>
+                <span class="text-muted" style="font-size:14px;">Material: Polyester <br>Machine Wash</span>
+                <p style="font-size:15px; font-family: sans-serif;
+                margin-top:10px; margin-bottom:5px;">
+                    Specifications</p>
+                <div class="row">
+                    <div class="col">
+                        <span class="text-muted" style="font-size:14px;"><small>Sleeve Length</small><br> Short Sleeves</span>
+                        <hr style="border-top: 0px solid #f5f5f6; opacity:0.1; margin-right:10px;">
+                        <span class="text-muted" style="font-size:14px;"><small>Type</small><br> Regular</span>
+                        <hr style="border-top: 0px solid #f5f5f6; opacity:0.1; margin-right:10px;">
+                        <span class="text-muted" style="font-size:14px;"><small>Sleeve Styling</small><br> Flared Sleeves</span>
+                        <hr style="border-top: 0px solid #f5f5f6; opacity:0.1; margin-right:10px;">
+                        <span class="text-muted" style="font-size:14px;"><small>Length</small><br> Regular</span>
+                    </div>
+                    <div class="col">
+                        <span class="text-muted" style="font-size:14px;"><small>Neck</small><br>Tie-Up Neck</span>
+                        <hr style="border-top: 0px solid #f5f5f6; opacity:0.1; margin-right:10px;">
+                        <span class="text-muted" style="font-size:14px;"><small>Print or Pattern Type</small><br>Floral</span>
+                        <hr style="border-top: 0px solid #f5f5f6; opacity:0.1; margin-right:10px;">
+                        <span class="text-muted" style="font-size:14px;"><small>Transparency</small><br>Opaque</span>
+                        <hr style="border-top: 0px solid #f5f5f6; opacity:0.1; margin-right:10px;">
+                        <span class="text-muted" style="font-size:14px;"><small>Main Trend</small><br>Floral Print</span>
+                    </div>
+                </div>
+                <hr style="border-top: 0px solid #f5f5f6; opacity:0.1; margin-right:20px; margin-top:10px;">
+                <h6 style="font-family: sans-serif;
+                margin-top:10px; margin-bottom:10px;">
+                    Customer Reviews</h6>
+                <span class="text-muted" style="font-size:14px;">One of the best purchases I've made. Very nice fabric, good fitting</span>
+                <p style="margin-top:5px;"><small>Ekaterina Tirath | 27 Feb 2021</small></p>
+                <hr style="border-top: 0px solid #f5f5f6; opacity:0.1; margin-right:10px;">
+                <span class="text-muted" style="font-size:14px;">Such such such a beautiful top.. I'm so impressed by the quality and material of the product.. Beautiful fit and looks fabulous when pair with jeans or shorts.. Loved the top.. ♥❤</span>
+                <p style="margin-top:5px;"><small>Kaveri Mandal | 23 Mar 2021</small></p>
+                <hr style="border-top: 0px solid #f5f5f6; opacity:0.1; margin-right:10px;">
+                <span class="text-muted" style="font-size:14px;">Nice as expected</span>
+                <p style="margin-top:5px;"><small>Arpita Majumder | 7 Apr 2021</small></p>
+                <hr style="border-top: 0px solid #f5f5f6; opacity:0.1; margin-right:10px; margin-bottom:4px;">
+                <a href="#" style="color:#324072; font-size:14px;">View all reviews</a>
+
+                <h6 style="font-family: sans-serif;
+                margin-top:15px; margin-bottom:5px;">
+                    Sold By</h6>
+                <p class="text-muted" style="font-size:14px; margin-bottom:5px;">Seller: <small><strong>Supercom Net</strong></small></p>
+                <p><a href="#" style="color:#324072; font-size:14px;">View Supplier Info</a></p>
+            </div>
+        </div>
+    </div>
+
+    <span style="font-size:25px; color:#333; font-family: 'Geo', sans-serif;
+    margin-left:15px; margin-top:10px; margin-bottom:20px;">
+                    SIMILAR PRODUCTS</span>
+    <div class="container-fluid" style="margin-top:10px; margin-bottom:10px;">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row" style="margin-left:15px;">
+                        {% for c in recommend %}
+                        <div class="col-sm-2 mt-3 no-gutters" style="margin-right:32px;">
+                        <div class="card" style="width: 14rem; height:22rem; margin-bottom:10px; box-shadow: 0 2px 4px 0 rgb(0, 0, 0, 0.09), 0 2px 4px 0 rgb(0, 0, 0, 0.09);">
+                            <a href="{% url 'detail' %}">
+                                <div class="inner">
+                                    <img class="card-img-top" src="{{ c.image.url }}" alt="Card image cap"
+                                     style="width:100%, height:100%; object-fit:cover;">
+                                </div>
+                            </a>
+                            <div class="card-body">
+                                <span class="card-title"
+                                      style="font-size:16px; font-family: sans-serif; text-align:center; display:block;">{{c.name}}</span>
+                                <p class="text-center font-weight-bold" style="margin:-18px; color:#324072;">Rs. {{ c.price }}</p>
+                            </div>
+                        </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row" style="margin-left:15px;">
+                        {% for c in recommend1 %}
+                        <div class="col-sm-2 mt-3 no-gutters" style="margin-right:32px;">
+                        <div class="card" style="width: 14rem; height:22rem; margin-bottom:10px; box-shadow: 0 2px 4px 0 rgb(0, 0, 0, 0.09), 0 2px 4px 0 rgb(0, 0, 0, 0.09);">
+                            <a href="{% url 'detail' %}">
+                                <div class="inner">
+                                    <img class="card-img-top" src="{{ c.image.url }}" alt="Card image cap"
+                                     style="width:100%, height:100%; object-fit:cover;">
+                                </div>
+                            </a>
+                            <div class="card-body">
+                                <span class="card-title"
+                                      style="font-size:16px; font-family: sans-serif; text-align:center; display:block;">{{c.name}}</span>
+                                <p class="text-center font-weight-bold" style="margin:-18px; color:#324072;">Rs. {{ c.price }}</p>
+                            </div>
+                        </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+</section>
+
+<!-- Footer -->
+<footer class="page-footer font-small bg-secondary" style="background:#324072;">
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+
+        <!-- Grid row -->
+        <div class="row">
+
+            <!-- Grid column -->
+            <div class="col-md-3 mx-auto">
+
+                <!-- Links -->
+                <h5 class="font-weight-bold text-uppercase mt-3 mb-3">Style Studio</h5>
+
+                <ul class="list-unstyled">
+                    <li>
+                        <span>Who We Are</span>
+                    </li>
+                    <li>
+                        <span>Join Our Team</span>
+                    </li>
+                    <li>
+                        <span>Terms & Conditions</span>
+                    </li>
+                    <li>
+                        <span>Fees & Payments</span>
+                    </li>
+                    <li>
+                        <span>Returns & Refunds Policy</span>
+                    </li>
+                </ul>
+            </div>
+            <!-- Grid column -->
+
+            <hr class="clearfix w-100 d-md-none">
+
+            <!-- Grid column -->
+            <div class="col-md-3 mx-auto">
+
+                <!-- Links -->
+                <h5 class="font-weight-bold text-uppercase mt-3 mb-3">HELP</h5>
+
+                <ul class="list-unstyled">
+                    <li>
+                        <span>Track Your Order</span>
+                    </li>
+                    <li>
+                        <span>Frequently Asked Questions</span>
+                    </li>
+                    <li>
+                        <span>Cancellations</span>
+                    </li>
+                    <li>
+                        <span>Customer Care</span>
+                    </li>
+                </ul>
+
+            </div>
+            <!-- Grid column -->
+
+            <hr class="clearfix w-100 d-md-none">
+
+            <!-- Grid column -->
+            <div class="col-md-3 mx-auto">
+
+                <!-- Links -->
+                <h5 class="font-weight-bold text-uppercase mt-3 mb-3">Follow Us</h5>
+
+                <ul class="list-unstyled">
+                    <li>
+                        <span><i class="fab fa-facebook" style="margin-right:5px;"></i>Facebook</span>
+                    </li>
+                    <li>
+                        <span><i class="fab fa-instagram" style="margin-right:5px;"></i>Instagram</span>
+                    </li>
+                    <li>
+                        <span><i class="fab fa-twitter" style="margin-right:5px;"></i>Twitter</span>
+                    </li>
+                    <li>
+                        <span><i class="fab fa-pinterest" style="margin-right:5px;"></i>Pinterest</span>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+
+    </div>
+    <!-- Footer Links -->
+    <hr style="border-top: 1px solid white;">
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2021 Copyright:
+        <a href="/" style="color:#324072;"> StyleStudio.com</a>
+    </div>
+    <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+{% endblock content %}
